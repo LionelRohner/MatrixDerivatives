@@ -120,6 +120,22 @@ differentiate_polynomial <- function(polynomial, order){
 
 # Examples ----------------------------------------------------------------
 
+# these work
+
 differentiate_polynomial("1+x+x^2+x^3+x^4", order = 4)
 
-differentiate_polynomial("x+x^2", order = 2)
+differentiate_polynomial("1+x^9+3x^3+5x^6", order = 9)
+
+differentiate_polynomial("0+x+x^2", order = 2)
+
+
+# these dont work
+
+# if constant not specified, it doesnot work
+differentiate_polynomial("x^2", order = 2)
+
+# if degree > 9 it doesnt work, as the exponent is the last char, 2 digit exponents are not handeled
+differentiate_polynomial("x+x^10", order = 10)
+
+# only works if terms are added, subtraction are not specified
+differentiate_polynomial("1-x-x^2", order = 2)
