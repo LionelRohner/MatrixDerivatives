@@ -2,14 +2,7 @@
 
 # Derivatives With Matrix
 
-d_dx = matrix()
-
-n = 
-  
-  diag(seq(1,10))
-
-seq(1,10) %*% diag(10)
-
+n = 5
 
 construct_derivate_matrix <- function(n){
   
@@ -31,4 +24,34 @@ construct_derivate_matrix <- function(n){
   return(C)
 }
 
-construct_derivate_matrix(10)
+d_dx <-  construct_derivate_matrix(10)
+
+
+
+polynomial = "1+3x+x^5+x^4"
+a <- gsub("\\+",",", polynomial)
+b <- gsub(",x",",1x", a)
+c <- gsub("x,","x^1,",b)
+polynomialSplit <- unlist(strsplit(c, ","))
+
+test <- c[3]
+length(test)
+# 
+# index <- substring(test, nchar(test), nchar(test))
+# coef <- substring(test, 1,1)
+
+polyVec <- vector(mode="numeric", length=n)
+
+for (term in polynomialSplit){
+  if(nchar(term) == 1){
+    polyVec[1] <- term
+  } else {
+    index <- as.numeric(substring(term, nchar(term), nchar(term))) + 1
+    coef <- substring(term, 1,1)
+    print(term)
+    polyVec[index] <- coef
+  }
+}
+
+polyVec <- as.numeric(polyVec)
+
