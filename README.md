@@ -1,8 +1,4 @@
 # MatrixDerivatives
 Derivate Using Linear Algebra
 
-d_dx = <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;0&space;&&space;1&&space;0&&space;0&&space;\hdots\\&space;0&space;&&space;0&&space;2&&space;0&&space;\hdots\\&space;0&space;&&space;0&&space;0&&space;3&&space;\hdots\\&space;0&space;&&space;0&&space;0&&space;0&&space;\hdots\\&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\ddots&space;\end{bmatrix}" target="_blank"></a>
-
-
-
-![formula](https://render.githubusercontent.com/render/math?math=\begin{bmatrix}&space;0&space;&&space;1&&space;0&&space;0&&space;\hdots\\&space;0&space;&&space;0&&space;2&&space;0&&space;\hdots\\&space;0&space;&&space;0&&space;0&&space;3&&space;\hdots\\&space;0&space;&&space;0&&space;0&&space;0&&space;\hdots\\&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\ddots&space;\end{bmatrix}})
+d_dx = <img src="https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bbmatrix%7D%260%26%26%261%26%260%26%260%26%26%5Cldots%5C%5C%260%26%26%260%26%262%26%260%26%26%5Cldots%5C%5C%260%26%26%260%26%260%26%263%26%26%5Cldots%5C%5C%260%26%26%260%26%260%26%260%26%26%5Cldots%5C%5C%26%5Cvdots%26%26%26%5Cvdots%26%26%5Cvdots%26%26%5Cvdots%26%26%5Cddots%5Cend%7Bbmatrix%7D">
