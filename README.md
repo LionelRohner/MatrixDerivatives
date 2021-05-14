@@ -14,36 +14,4 @@ Differentiation Matrix :
 <img src="https://latex.codecogs.com/svg.image?\overrightarrow{\textbf{p}}=&space;\begin{bmatrix}13&space;\\1&space;\\3&space;\\4&space;\\0&space;\\\vdots&space;\end{bmatrix}&space;" title="\overrightarrow{\textbf{p}}= \begin{bmatrix}13 \\1 \\3 \\4 \\0 \\\vdots \end{bmatrix} " />
 
 
-\begin{bmatrix}
- 0&  1&  0&  0 & 0&\cdots \\
- 0&  0&  2&  0 & 0&\cdots \\
- 0&  0&  0&  3 & 0&\cdots \\
- 0&  0&  0&  0 & 4&\cdots \\
- 0&  0&  0&  0 & 0&\cdots \\ 
- \vdots & \vdots & \vdots & \vdots & \ddots 
-\end{bmatrix} = \begin{bmatrix}
-13 \\
-1 \\
-3 \\
-4 \\
-0 \\
-\vdots 
-\end{bmatrix} = 
-\begin{bmatrix}
-1 \\
-6 \\
-12 \\
-0 \\
-0 \\
-\vdots 
-\end{bmatrix} =
-\begin{bmatrix}
-\text{Constant} \\
-\text{1st Order Term} \\
-\text{2nd Order Term} \\
-\text{3rd Order Term}\\
-\text{4th Order Term} \\
-\vdots 
-\end{bmatrix}  
-
-
+<img src="https://latex.codecogs.com/svg.image?\begin{bmatrix}&space;0&&space;&space;1&&space;&space;0&&space;&space;0&space;&&space;0&\cdots&space;\\&space;0&&space;&space;0&&space;&space;2&&space;&space;0&space;&&space;0&\cdots&space;\\&space;0&&space;&space;0&&space;&space;0&&space;&space;3&space;&&space;0&\cdots&space;\\&space;0&&space;&space;0&&space;&space;0&&space;&space;0&space;&&space;4&\cdots&space;\\&space;0&&space;&space;0&&space;&space;0&&space;&space;0&space;&&space;0&\cdots&space;\\&space;&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\vdots&space;&&space;\ddots&space;\end{bmatrix}&space;=&space;\begin{bmatrix}13&space;\\1&space;\\3&space;\\4&space;\\0&space;\\\vdots&space;\end{bmatrix}&space;=&space;\begin{bmatrix}1&space;\\6&space;\\12&space;\\0&space;\\0&space;\\\vdots&space;\end{bmatrix}&space;=\begin{bmatrix}\text{Constant}&space;\\\text{1st&space;Order&space;Term}&space;\\\text{2nd&space;Order&space;Term}&space;\\\text{3rd&space;Order&space;Term}\\\text{4th&space;Order&space;Term}&space;\\\vdots&space;\end{bmatrix}&space;&space;" title="\begin{bmatrix} 0& 1& 0& 0 & 0&\cdots \\ 0& 0& 2& 0 & 0&\cdots \\ 0& 0& 0& 3 & 0&\cdots \\ 0& 0& 0& 0 & 4&\cdots \\ 0& 0& 0& 0 & 0&\cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix} = \begin{bmatrix}13 \\1 \\3 \\4 \\0 \\\vdots \end{bmatrix} = \begin{bmatrix}1 \\6 \\12 \\0 \\0 \\\vdots \end{bmatrix} =\begin{bmatrix}\text{Constant} \\\text{1st Order Term} \\\text{2nd Order Term} \\\text{3rd Order Term}\\\text{4th Order Term} \\\vdots \end{bmatrix} " />
