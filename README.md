@@ -7,7 +7,7 @@ The idea is that the polynomials of any degree (e.g. ) can be described as a mat
 
 Differentiation Matrix : $\textbf{D}=\frac{\textbf{d}}{\textbf{dx}}=\begin{bmatrix} 0 & 1 & 0 & 0 & 0 & \cdots\\ 0 & 0 & 2 & 0 & 0 & \cdots\\ 0 & 0 & 0 & 3 & 0 & \cdots\\ 0 & 0 & 0 & 0 & 4 & \cdots\\ 0 & 0 & 0 & 0 & 0 & \cdots\\ \vdots & \vdots & \vdots & \vdots & \ddots\end{bmatrix}$
 
-$$\begin{bmatrix} 0 & 0 \\ 0 & 0 \\ 0 & 0 \end{bmatrix}$$
+$$\begin{bmatrix} 0& 0\\ 0& 0\\ 0&0\end{bmatrix}$$
 
 # Example
 
@@ -22,7 +22,7 @@ $\frac{\textbf{d}}{\textbf{dx}}(13+x+3x^2+4x^3)=0+1+6x+12x^2$
 
 In matrix notation, the coefficients corresponding to any term are represented in a vector form, where row number are the degrees of the terms. First row corresponds to the constant part of the polynomial.
 
-$\vec{\textbf{p}}= \begin{bmatrix}13 \\1 \\3 \\4 \\0 \\\vdots \end{bmatrix}$
+$\vec{\textbf{p}}= \begin{bmatrix}13 \\ 1 \\ 3 \\ 4 \\ 0 \\\vdots \end{bmatrix}$
 
 Calculation of $\textbf{D} \vec{p}$
 
