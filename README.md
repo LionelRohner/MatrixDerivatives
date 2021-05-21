@@ -7,7 +7,7 @@ The idea is that the polynomials of any degree (e.g. ) can be described as a mat
 
 Differentiation Matrix : $\textbf{D}=\frac{\textbf{d}}{\textbf{dx}}=\begin{bmatrix} 0 & 1 & 0 & 0 & 0 & \cdots\\ 0 & 0 & 2 & 0 & 0 & \cdots\\ 0 & 0 & 0 & 3 & 0 & \cdots\\ 0 & 0 & 0 & 0 & 4 & \cdots\\ 0 & 0 & 0 & 0 & 0 & \cdots\\ \vdots & \vdots & \vdots & \vdots & \ddots\end{bmatrix}$
 
-$$\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$
+$$\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$$
 
 # Example
 
