@@ -23,6 +23,6 @@ $\frac{\textbf{d}}{\textbf{dx}}(13+x+3x^2+4x^3)=0+1+6x+12x^2$
 
 In matrix notation, the coefficients corresponding to any term are represented in a vector form, where row number are the degrees of the terms. First row corresponds to the constant part of the polynomial.
 
-$\vec{\textbf{p}}= \begin{bmatrix}13 \\ 1 \\ 3 \\ 4 \\ 0 \\\vdots \end{bmatrix}$
+$\vec{\textbf{p}}= \begin{bmatrix} 13 \\ 1 \\ 3 \\ 4 \\ 0 \\ \vdots \end{bmatrix}$
 
 Calculation of $\textbf{D} \vec{p} = \begin{bmatrix}13 \\1 \\3 \\4 \\0 \\\vdots \end{bmatrix} = \begin{bmatrix}1 \\6 \\12 \\0 \\0 \\\vdots \end{bmatrix} =\begin{bmatrix}\text{Constant} \\\text{1st Order Term} \\\text{2nd Order Term} \\\text{3rd Order Term}\\\text{4th Order Term} \\\vdots \end{bmatrix}$
