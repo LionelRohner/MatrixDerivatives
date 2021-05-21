@@ -5,7 +5,7 @@ Derivate Using Linear Algebra. This is a fun project inspired by this video [Vid
 
 The idea is that the polynomials of any degree (e.g. ) can be described as a matrix-vector multiplication. More precisely, a matrix (**D**) representing the differentiation of any terms of a polynomial is premultiplied by the vector (**p**) describing the terms of the polynomial.
 
-Differentiation Matrix : $\textbf{D}=\frac{\textbf{d}}{\textbf{dx}}=\begin{bmatrix} 0& 1& 0& 0 & 0&\cdots \\ 0& 0& 2& 0 & 0&\cdots \\ 0& 0& 0& 3 & 0&\cdots \\ 0& 0& 0& 0 & 4&\cdots \\ 0& 0& 0& 0 & 0&\cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix}$
+Differentiation Matrix : $\textbf{D}=\frac{\textbf{d}}{\textbf{dx}}=\begin{bmatrix} 0 & 1 & 0 & 0 & 0 & \cdots\\ 0 & 0 & 2 & 0 & 0 & \cdots\\ 0 & 0 & 0 & 3 & 0 & \cdots\\ 0 & 0 & 0 & 0 & 4 & \cdots\\ 0 & 0 & 0 & 0 & 0 & \cdots\\ \vdots & \vdots & \vdots & \vdots & \ddots\end{bmatrix}$
 
 # Example
 
@@ -24,4 +24,4 @@ $\vec{\textbf{p}}= \begin{bmatrix}13 \\1 \\3 \\4 \\0 \\\vdots \end{bmatrix}$
 
 Calculation of $\textbf{D} \vec{p}$
 
-$\begin{bmatrix} 0& 1& 0& 0 & 0&\cdots \\ 0& 0& 2& 0 & 0&\cdots \\ 0& 0& 0& 3 & 0&\cdots \\ 0& 0& 0& 0 & 4&\cdots \\ 0& 0& 0& 0 & 0&\cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix} = \begin{bmatrix}13 \\1 \\3 \\4 \\0 \\\vdots \end{bmatrix} = \begin{bmatrix}1 \\6 \\12 \\0 \\0 \\\vdots \end{bmatrix} =\begin{bmatrix}\text{Constant} \\\text{1st Order Term} \\\text{2nd Order Term} \\\text{3rd Order Term}\\\text{4th Order Term} \\\vdots \end{bmatrix}$
+$\begin{bmatrix} 0 & 1 & 0 & 0 & 0 &\cdots \\ 0& 0& 2& 0 & 0&\cdots \\ 0& 0& 0& 3 & 0&\cdots \\ 0& 0& 0& 0 & 4&\cdots \\ 0& 0& 0& 0 & 0&\cdots \\ \vdots & \vdots & \vdots & \vdots & \ddots \end{bmatrix} = \begin{bmatrix}13 \\1 \\3 \\4 \\0 \\\vdots \end{bmatrix} = \begin{bmatrix}1 \\6 \\12 \\0 \\0 \\\vdots \end{bmatrix} =\begin{bmatrix}\text{Constant} \\\text{1st Order Term} \\\text{2nd Order Term} \\\text{3rd Order Term}\\\text{4th Order Term} \\\vdots \end{bmatrix}$
